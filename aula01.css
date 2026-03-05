@@ -27,10 +27,31 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 img {
     width: 300px;
     height: 300px;
     border: 1px solid black;
+}
+
+.teste {
+    width: 70%;
+    height: 70%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+input {
+    width:90%;
+    padding: 10px;
+}
+
+.label {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
 }
