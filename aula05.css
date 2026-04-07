@@ -29,9 +29,27 @@ body{
     height: 100px;
     padding: 10px;
     background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+   
 }
 input{
     padding: 10px;
     border-radius: 10px;
-    width: 30%;
+    width: 25%;
+}
+
+textarea{
+    width: 40%;
+    padding: 25px;
+}
+
+.btn-enviar{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: 1px solid black;
+    width: 200px;
+    border-radius: 5px;
 }
